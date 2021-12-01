@@ -1,5 +1,8 @@
-<h1>New Friend</h1>
-
-<%= render 'form', friend: @friend %>
-
-<%= link_to 'Back', friends_path %>
+<div class="card text-dark bg-light mb-3" style="max-width: 50rem;">
+  <div class="card-header">Add Friend</div>
+  <div class="card-body">
+    <%= render 'form', friend: @friend %>
+<br>
+    <%= link_to 'Back', friends_path %>
+ </div>
+</div>
